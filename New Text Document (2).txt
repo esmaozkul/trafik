@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Excel dosyasını okuyun
+df = pd.read_excel('C:/Users/Esma/Desktop/trafik/trafik.xlsx')  # Dosya yolunu kontrol edin
+
+# Veri setinin ilk birkaç satırını kontrol edin
+print(df.head())
+

@@ -1,0 +1,15 @@
+Bugün size excelde kendi oluşturdugumuz veri seti ile makine öğrenimi modeli kullandık. Anlık olarak trafik yoğunlugunu hesaplayıp trafik lambalarındaki ışık sürelerinin optimizasyonu oluşturularak trafik yoğunlugunu çözmeyi amaçladık.
+
+
+
+bunun için trafik kontrol sistemine kullanabilecekleri bir yapay zeka teknolojosinin prototipini yaptık.
+
+
+soru 
+1)siz bu sistemi nasıl kullandınız?
+lambalar içerisinde kullanılan sinyalizasyonu bu yapmıs oldugumuz yapay zeka teknolojisine 
+
+
+pandas kütüphanesini kullandık
+veri setinden eğtim ve test setlerini oluşturduk.modelde korelasyon katsayısının karesini hesaplayarak verilerin hata düzeyini hesapladık.
+yapmıs oldugumuz trafik kontrol sistemi prototipi bu şekilde 
